@@ -89,11 +89,51 @@ git push origin main
 |-------------------------|-----------------------------------------|
 | git status                 | Git, GitHub, GitLab                 |
 | git pull origin main       | Actualizar (bajar cambios)          |
-| git add .                  | Agregar todos los cambios                 |
-| git add nombre-archivo        | Agregar un archivo específico              |
-| git commit -m "mensaje"              |Guardar los cambios con un mensaje          |
-| git push origin main                   | Subir los cambios al repositorio           |
+| git add .                  | Agregar todos los cambios           |
+| git add nombre-archivo     | Agregar un archivo específico       |
+| git commit -m "mensaje"    | Guardar los cambios con un mensaje  |
+| git push origin main       |Subir los cambios al repositorio    |
+| git log --oneline          | Ver el historial de commits        |
+| git clone url              | Clonar un repositorio              |
+| git branch                 | Ver las ramas                      |
+| git checkout -b nombre-rama| Crear y cambiar a una nueva rama   |
+| git restore nombre-archivo | Deshacer cambios de un archivo     |
+| git rm nombre-archivo      | Eliminar un archivo                |
 
+## Solución de problemas comunes
+Error: "not a git repository"
+No estás dentro de la carpeta del proyecto. Entra con:
+ ```
+cd ruta/de/la/carpeta/Devops-trio
+ ```
+
+## Error: "Updates were rejected"
+ ```
+git pull origin main
+```
+# resuelve conflictos si aparecen
+```
+git push origin main
+ ```
+
+## Error: "Author identity unknown"
+Configura tu nombre y correo:
+```
+git config --global user.name "Tu Nombre"
+git config --global user.email "tu@email.com"
+```
+## Error: "git no se reconoce como comando"
+Git no está instalado o no reiniciaste la terminal después de instalarlo.
+
+## Estructura del proyecto
+```
+Devops-trio/
+├── index.html
+├── style.CSS
+├── JavaScript.js
+├── README.md
+└── ...
+```
 ## Cómo contribuir
 
 1. Clona el repositorio:
