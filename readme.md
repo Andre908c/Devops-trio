@@ -85,19 +85,14 @@ git push origin main
 
 ## Comandos más comunes de Git
 
-Comando,Descripción
-git status,Ver el estado de los archivos
-git pull origin main,Actualizar (bajar cambios)
-git add .,Agregar todos los cambios
-git add nombre-archivo,Agregar un archivo específico
-"git commit -m ""mensaje""",Guardar los cambios con un mensaje
-git push origin main,Subir los cambios al repositorio
-git log --oneline,Ver el historial de commits
-git clone url,Clonar un repositorio
-git branch,Ver las ramas
-git checkout -b nombre-rama,Crear y cambiar a una nueva rama
-git restore nombre-archivo,Deshacer cambios de un archivo
-git rm nombre-archivo,Eliminar un archivo
+| Comando                    | Descripción                          |
+|-------------------------|-----------------------------------------|
+| git status                 | Git, GitHub, GitLab                 |
+| git pull origin main       | Actualizar (bajar cambios)          |
+| git add .                  | Agregar todos los cambios                 |
+| git add nombre-archivo        | Agregar un archivo específico              |
+| git commit -m "mensaje"              |Guardar los cambios con un mensaje          |
+| git push origin main                   | Subir los cambios al repositorio           |
 
 ## Cómo contribuir
 
