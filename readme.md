@@ -125,6 +125,19 @@ git config --global user.email "tu@email.com"
 ## Error: "git no se reconoce como comando"
 Git no está instalado o no reiniciaste la terminal después de instalarlo.
 
+## Solucions de problemas A
+```
+git stash
+git pull origin main
+git stash pop
+```
+
+## Solucions de problemas B
+```
+git add README.md
+git commit -m "Actualicé el README"
+git pull origin main
+```
 ## Estructura del proyecto
 ```
 Devops-trio/
