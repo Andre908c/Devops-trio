@@ -87,7 +87,7 @@ git push origin main
 
 | Comando                    | Descripción                          |
 |-------------------------|-----------------------------------------|
-| git status                 | Git, GitHub, GitLab (ver estado de los archivos              |
+| git status                 | Git, GitHub, GitLab (ver estado de los archivos)              |
 | git pull origin main       | Actualizar (bajar cambios)          |
 | git add .                  | Agregar todos los cambios           |
 | git add nombre-archivo     | Agregar un archivo específico       |
